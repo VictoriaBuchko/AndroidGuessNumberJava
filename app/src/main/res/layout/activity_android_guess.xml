@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    tools:context=".AndroidGuessActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/android_title"
+        android:textSize="22sp"
+        android:textColor="@color/my_color_text"
+        android:background="@color/my_color_background"
+        android:gravity="center"
+        android:padding="12dp"
+        android:layout_marginBottom="32dp" />
+
+    <EditText
+        android:id="@+id/et_guess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/human_hint"
+        android:inputType="number"
+        android:textSize="18sp"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:onClick="checkGuess"
+        android:text="@string/human_btn_check"
+        android:textSize="17sp"
+        android:textColor="@color/my_color_text"
+        android:backgroundTint="@color/my_button_color"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/tv_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="22sp"
+        android:textColor="@color/text_blue"
+        android:gravity="center"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tv_attempts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:textColor="@color/text_blue"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btn_new_game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="newGame"
+        android:text="@string/btn_new_game"
+        android:textSize="17sp"
+        android:textColor="@color/my_color_text"
+        android:backgroundTint="@color/my_button_color"
+        android:layout_marginBottom="12dp"
+        android:visibility="gone" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="goBack"
+        android:text="@string/btn_back"
+        android:textSize="17sp"
+        android:textColor="@color/my_color_text"
+        android:backgroundTint="@color/my_button_color" />
+
+</LinearLayout>

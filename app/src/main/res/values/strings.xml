@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="new_string">Звичайне натискання на кнопку</string>
+    <string name="new_string_long">Довге натискання на кнопку</string>
+    <string name="text_button">Натисни/Сильно_натисни</string>
+
+    <string name="menu_title">Вгадай число</string>
+    <string name="menu_btn_human">Людина загадує число</string>
+    <string name="menu_btn_android">Android загадує число</string>
+
+    <string name="human_title">Людина загадує число</string>
+    <string name="human_phase_enter">Гравець 1: введи своє число</string>
+    <string name="human_phase_guess">Гравець 2: вгадай число!</string>
+    <string name="human_hint_secret">Введи своє число (1–100)</string>
+    <string name="human_hint">Введи число</string>
+    <string name="human_btn_set">Загадати</string>
+    <string name="human_btn_check">Перевірити</string>
+    <string name="human_more">Більше</string>
+    <string name="human_less">Менше</string>
+    <string name="human_win">Правильно! Це було число </string>
+    <string name="human_attempts">Спроб: </string>
+    <string name="human_empty_input">Введи число!</string>
+
+    <string name="android_title">Android загадав число від 1 до 100\nВгадай його!</string>
+    <string name="btn_new_game">Нова гра</string>
+    <string name="btn_back">← Назад до меню</string>
+</resources>
